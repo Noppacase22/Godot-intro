@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://boqvjd8nstaqx"]
+
+[ext_resource type="Script" uid="uid://b56nl63i2yoeh" path="res://Scenes/global.gd" id="1_koean"]
+[ext_resource type="AudioStream" uid="uid://d05385du5fc0j" path="res://audio/S31-City on Speed.ogg" id="2_o8ivi"]
+
+[node name="Global" type="Node" unique_id=364255377]
+script = ExtResource("1_koean")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=299854726]
+stream = ExtResource("2_o8ivi")
+autoplay = true
+parameters/looping = false

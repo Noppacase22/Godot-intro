@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 var direction: Vector2 = Vector2(1,1)
-var speed: int = 5000
+var speed: int = 3000
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

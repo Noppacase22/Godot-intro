@@ -20,4 +20,8 @@ shape = SubResource("RectangleShape2D_uoj53")
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=31775317]
 rect = Rect2(-11, -8, 22, 16)
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=421826955]
+volume_db = -20.0
+max_distance = 100.0
+
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
